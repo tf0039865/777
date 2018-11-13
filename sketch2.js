@@ -59,12 +59,12 @@ function gotResults(results) {
 
   if (results.classIndex == 1) {
     //msg = '剪刀';
-    document.getElementById("myImg").src = "a1.png"/*播放聲音*/ var voicel = new Audio ("*01*.wav");
-    voicel.play();
+    document.getElementById("myImg").src = "a1.png"/*播放聲音 var voicel = new Audio ("*01*.wav");
+    voicel.play();*/
   } else if (results.classIndex == 2) {
     //msg = '石頭';
-    document.getElementById("myImg").src = "a2.png" var voicel = new Audio ("*02*.wav");
-    voicel.play();;
+    document.getElementById("myImg").src = "a2.png" /*var voicel = new Audio ("*02*.wav");
+    voicel.play();*/
   } else if (results.classIndex == 3) {
     //msg = '布';
 	document.getElementById("myImg").src = "a3.png";
